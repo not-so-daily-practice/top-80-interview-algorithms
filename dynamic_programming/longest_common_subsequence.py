@@ -28,9 +28,3 @@ def lcs(str1, str2):
             sub[i][j] = sub[i - 1][j] if len(sub[i - 1][j]) > len(sub[i][j - 1]) else sub[i][j - 1]
 
     return sub[m][n]
-
-
-str1 = "abcfdcbab"
-str2 = "acbgdcb"
-
-print(lcs(str1, str2))
