@@ -16,3 +16,6 @@ My solutions for the algorithms on [Geeks for Geeks](http://www.geeksforgeeks.or
 
 ## Trees / Binary Search Trees
 * [Find Minimum Depth of a Binary Tree](http://www.geeksforgeeks.org/find-minimum-depth-of-a-binary-tree/)
+
+## Number Theory
+* [Modular Exponentiation](http://www.geeksforgeeks.org/modular-exponentiation-power-in-modular-arithmetic/)
