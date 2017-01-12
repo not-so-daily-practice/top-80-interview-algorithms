@@ -19,3 +19,6 @@ My solutions for the algorithms on [Geeks for Geeks](http://www.geeksforgeeks.or
 
 ## Number Theory
 * [Modular Exponentiation](http://www.geeksforgeeks.org/modular-exponentiation-power-in-modular-arithmetic/)
+
+## String / Array
+* [Reverse an array without affecting special characters](http://www.geeksforgeeks.org/reverse-an-array-without-affecting-special-characters/)
