@@ -1,5 +1,5 @@
 from graphs.breadth_first_traversal import bft
-
+from graphs.depth_first_traversal import dft
 from graphs.graph import Graph
 
 default_graph = Graph()
@@ -18,4 +18,5 @@ default_graph.add_undirected_edge(7, 12)
 
 default_graph_head = 1
 
-bft(default_graph, default_graph_head)
+print(bft(default_graph, default_graph_head))
+print(dft(default_graph, default_graph_head))
