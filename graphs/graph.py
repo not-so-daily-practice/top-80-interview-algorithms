@@ -10,7 +10,7 @@ class Graph(object):
         """
         Create dict where graphs is of format start_node : [end_node_1, ..., end_node_n]
         """
-        self.dic = defaultdict(list)
+        self.dic = defaultdict(set)
 
     def add_edge(self, u, v):
         """
@@ -20,7 +20,7 @@ class Graph(object):
         :return: True if able to add
         """
         try:
-            self.dic[u].append(v)
+            self.dic[u].add(v)
             return True
         except:
             return False
