@@ -46,10 +46,32 @@ class LinkedList(object):
             node.next = curr.next
             curr.next = node
 
-    def sorted_insert(self, data):
+    def delete_node(self, node):
         """
-        Insert data in its sorted position in the list
-        :param data: data to insert
+        Given a linked list node, find and remove it
+        :param node: node to delete
         """
-        node = LinkedListNode(data)
-        self.sorted_node_insert(node)
+        if self.head == node:
+            if self.head.next is None:
+                raise Exception("Cannot have empty list")
+
+            # copy next node data to head
+            self.head.data = self.head.next.data
+
+            # store next node link
+            node = self.head.next
+
+            # remove next node link
+            self.head.next = node.next.next
+
+        else:
+            prev = self.head
+            # get node before node to be deleted
+            while prev.next is not None and prev.next is not node:
+                prev = prev.next
+
+            # check that node is in list
+            if prev.next is None:
+                raise Exception("Node to be deleted does not exist")
+
+            prev.next = prev.next.next
