@@ -12,6 +12,7 @@ My solutions for the algorithms on [Geeks for Geeks](http://www.geeksforgeeks.or
 
 ## Dynamic Programming
 * [Longest Common Subsequence](http://www.geeksforgeeks.org/dynamic-programming-set-4-longest-common-subsequence/)
+* [Longest Increasing Subsequence](http://www.geeksforgeeks.org/dynamic-programming-set-3-longest-increasing-subsequence/)
 
 ## Sorting and Searching
 * [Binary Search](http://quiz.geeksforgeeks.org/binary-search/)
