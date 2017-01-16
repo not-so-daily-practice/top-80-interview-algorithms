@@ -16,6 +16,7 @@ My solutions for the algorithms on [Geeks for Geeks](http://www.geeksforgeeks.or
 
 ## Sorting and Searching
 * [Binary Search](http://quiz.geeksforgeeks.org/binary-search/)
+* [Search an element in a sorted and rotated array](http://www.geeksforgeeks.org/search-an-element-in-a-sorted-and-pivoted-array/)
 
 ## Trees / Binary Search Trees
 * [Find Minimum Depth of a Binary Tree](http://www.geeksforgeeks.org/find-minimum-depth-of-a-binary-tree/)
