@@ -1,11 +1,11 @@
 def search_rotated_array_rec(arr, elem, left, right):
     """
-
-    :param arr:
-    :param elem:
-    :param left:
-    :param right:
-    :return:
+    Given a sorted array that has been rotated around a point, find an element
+    :param arr: rotated array (ex: 4, 5, 6, 7, 1, 2, 3
+    :param elem: element to find
+    :param left: left bound of search
+    :param right: right bound of search
+    :return: index of element (-1 if not found)
     """
     if left > right:
         # element not present in arr
@@ -36,9 +36,9 @@ def search_rotated_array_rec(arr, elem, left, right):
 
 def search_rotated_array(arr, elem):
     """
-
-    :param arr:
-    :param elem:
-    :return:
+    Given a sorted array that has been rotated around a point, find an element
+    :param arr: rotated array (ex: 4, 5, 6, 7, 1, 2, 3
+    :param elem: element to find
+    :return: index of element (-1 if not found)
     """
     return search_rotated_array_rec(arr, elem, 0, len(arr) - 1)
