@@ -13,7 +13,7 @@ def nth_magic_number(n):
     res = 0
     powr = 1
 
-    while (n):
+    while n:
         # iterate over all bits
         powr *= 5
 

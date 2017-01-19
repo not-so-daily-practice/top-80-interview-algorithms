@@ -11,7 +11,7 @@ def mod_exp(x, y, p):
 
     x = x % p  # mod to prevent overflow with large x
 
-    while (y > 0):
+    while y > 0:
         if not y % 2 == 0:  # check if odd
             result = (result * x) % p
 

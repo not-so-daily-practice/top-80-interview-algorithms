@@ -9,9 +9,7 @@ def min_depth(root):
     if root is None:
         return depth
 
-    queue = []  # nodes to visit
-
-    queue.append({"node": root, "depth": 1})  # add starting node with a depth of 1
+    queue = [{"node": root, "depth": 1}]  # nodes to visit
 
     while queue:
         qd = queue.pop(0)

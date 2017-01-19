@@ -6,9 +6,7 @@ def bft(graph, s):
     :return: set of BFS-visited vertices
     """
     visited = []  # visited vertices
-    queue = []  # vertices to visit
-
-    queue.append(s)  # add starting vertex
+    queue = [s]  # vertices to visit
 
     while queue:  # while there remain unexplored vertices
         c = queue.pop(0)  # current vertex
