@@ -28,3 +28,4 @@ My solutions for the algorithms on [Geeks for Geeks](http://www.geeksforgeeks.or
 
 ## String / Array
 * [Reverse an array without affecting special characters](http://www.geeksforgeeks.org/reverse-an-array-without-affecting-special-characters/)
+* [All Possible Palindromic Partitions](http://www.geeksforgeeks.org/given-a-string-print-all-possible-palindromic-partition/)
