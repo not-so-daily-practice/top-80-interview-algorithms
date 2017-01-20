@@ -1,6 +1,7 @@
 from graphs.breadth_first_traversal import bft
 from graphs.depth_first_traversal import dft
 from graphs.graph import Graph
+from graphs.shortest_path_source_all_vertices import shortest_path_all_vertices, get_path
 
 default_graph = Graph()
 
@@ -20,3 +21,14 @@ default_graph_head = 1
 
 print(bft(default_graph, default_graph_head))
 print(dft(default_graph, default_graph_head))
+
+graph = {
+    'a': {'a': 2, 'b': 2},
+    'b': {'c': 1, 'd': 4},
+    'c': {'a': 1, 'd': 1},
+    'd': {'c': 1, 'e': 1},
+    'e': {}
+}
+
+print(shortest_path_all_vertices(graph, 'a')[0])
+print(get_path(graph, 'a', 'd'))
