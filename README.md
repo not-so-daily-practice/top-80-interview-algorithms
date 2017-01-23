@@ -10,6 +10,7 @@ My solutions for the algorithms on [Geeks for Geeks](http://www.geeksforgeeks.or
 ## Linked Lists
 * [Given a linked list which is sorted, how will you insert in sorted way](http://www.geeksforgeeks.org/given-a-linked-list-which-is-sorted-how-will-you-insert-in-sorted-way/)
 * [Delete a given node in Linked List under given constraints](http://www.geeksforgeeks.org/delete-a-given-node-in-linked-list-under-given-constraints/)
+* [Compare two strings represented as linked lists](http://www.geeksforgeeks.org/compare-two-strings-represented-as-linked-lists/)
 
 ## Dynamic Programming
 * [Longest Common Subsequence](http://www.geeksforgeeks.org/dynamic-programming-set-4-longest-common-subsequence/)
