@@ -20,10 +20,12 @@ My solutions for the algorithms on [Geeks for Geeks](http://www.geeksforgeeks.or
 ## Sorting and Searching
 * [Binary Search](http://quiz.geeksforgeeks.org/binary-search/)
 * [Search an element in a sorted and rotated array](http://www.geeksforgeeks.org/search-an-element-in-a-sorted-and-pivoted-array/)
+* [Bubble Sort](http://quiz.geeksforgeeks.org/bubble-sort/)
 
 ## Trees / Binary Search Trees
 * [Find Minimum Depth of a Binary Tree](http://www.geeksforgeeks.org/find-minimum-depth-of-a-binary-tree/)
 * [Maximum Path Sum in a Binary Tree](http://www.geeksforgeeks.org/find-maximum-path-sum-in-a-binary-tree/)
+* [Check if a given array can represent Preorder Traversal of Binary Search Tree](http://www.geeksforgeeks.org/check-if-a-given-array-can-represent-preorder-traversal-of-binary-search-tree/)
 
 ## Number Theory
 * [Modular Exponentiation](http://www.geeksforgeeks.org/modular-exponentiation-power-in-modular-arithmetic/)
